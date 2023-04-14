@@ -1,4 +1,4 @@
-FROM ruby:2.6-buster AS base
+FROM ruby:2.7.8-buster AS base
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update \
